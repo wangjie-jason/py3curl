@@ -8,7 +8,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py3curl",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
-    version="1.1.0",  # 程序版本
+    version="1.1.3",  # 程序版本
+    py_modules=['py3curl'],
     author="WangJie",  # 项目作者
     author_email="1641540482@qq.com",  # 作者邮件
     description="将请求对象转换为curl命令字符串",  # 项目的一句话描述
