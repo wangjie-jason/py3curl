@@ -14,7 +14,7 @@ setuptools.setup(
     description="将请求对象转换为curl命令字符串",  # 项目的一句话描述
     long_description=long_description,  # 加长版描述
     long_description_content_type="text/markdown",  # 描述使用Markdown
-    url="https://github.com/wangjie-jason",  # 项目地址
+    url="https://github.com/wangjie-jason/py3curl",  # 项目地址
     packages=setuptools.find_packages(),  # 无需修改
     classifiers=[
         "Programming Language :: Python :: 3",  # 使用Python3
